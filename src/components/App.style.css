@@ -1,0 +1,72 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.App{
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-rows:
+    [topBar] 80px
+    [fotoBar] 585px
+    [maps] 250px
+    [title] 30px
+    [blog] auto
+    [footer] 150px;
+}
+
+.mainMenu{
+    grid-row: topBar;
+    background-color: rgb(58,57,57);
+    width: 100vw;
+    height: 80px;
+    position: fixed;
+
+}
+
+.logo{
+    grid-row: topBar;
+    position: absolute;
+}
+
+.topBar{
+    grid-row: topBar;
+    background-color: rgb(58,57,57);
+    display: flex;
+    justify-content: center;
+    color: rgb(252, 246, 238);
+    overflow-wrap: wrap;
+}
+
+.topFoto {
+    grid-row: fotoBar;
+    background-image:url("/public/img/Maspalmas.jpg");  
+    
+}
+
+.maps{
+    grid-row: maps;
+}
+
+.title{
+    grid-row: title;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 30px;
+}
+
+.blog {
+    grid-row: blog;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 30px;
+    flex-wrap: wrap;
+}
+
+.footer{
+    grid-row: footer;
+    background-color: rgb(58,57,57);
+}
