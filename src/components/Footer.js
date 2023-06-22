@@ -39,7 +39,7 @@ export const Footer = () => {
           color: "gray",
         }}
       >
-        aboutTravel Copyright © 2023 Wszelkie prawa zastrzeżone
+        aboutTravel Copyright © 2023
       </p>
     </article>
   );

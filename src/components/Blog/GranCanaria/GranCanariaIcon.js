@@ -6,18 +6,10 @@ export const GranCanariaIcon = () => {
       <div
         className="post"
         style={{
-          width: "400px",
-          height: "400px",
-          borderRadius: "10px",
           backgroundImage: "url(./img/GranCanaraiaBackground.avif)",
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          fontWeight: "900",
-          color: "white",
         }}
       >
-        GranCanaria
+        <p className="namePost">Gran Canaria</p>
       </div>
     </article>
   );

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+
 *{
     margin:0;
     padding: 0;
@@ -13,7 +15,9 @@
     [maps] 250px
     [title] 30px
     [blog] auto
+    [subBar] 300px
     [footer] 150px;
+    font-family: Cinzel;
 }
 
 .mainMenu{
@@ -22,6 +26,7 @@
     width: 100vw;
     height: 80px;
     position: fixed;
+    z-index: 5;
 
 }
 
@@ -37,17 +42,28 @@
     justify-content: center;
     color: rgb(252, 246, 238);
     overflow-wrap: wrap;
+   
+    
 }
 
 .topFoto {
     grid-row: fotoBar;
-    background-image:url("/public/img/Maspalmas.jpg");  
-    
+    background-image:url("/public/img/Maspalmas.jpg");   
 }
+
+.topFoto::after{
+    content: "";
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.2);
+}
+
 
 .maps{
     grid-row: maps;
 }
+
 
 .title{
     grid-row: title;
@@ -64,6 +80,14 @@
     align-content: center;
     padding: 30px;
     flex-wrap: wrap;
+}
+
+.subBar{
+    grid-row: subBar;
+    background-image: url("/public/img/subBackground.avif");
+    height: 230px;
+    padding-bottom: 50px;
+    background-size: cover;
 }
 
 .footer{

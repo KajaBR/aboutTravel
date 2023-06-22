@@ -9,6 +9,7 @@ export const TopBar = () => {
         alignItems: "center",
         paddingTop: "27px",
         fontWeight: "900",
+        position: "fixed",
       }}
     >
       <ul
@@ -17,13 +18,10 @@ export const TopBar = () => {
           paddingLeft: "10px",
         }}
       >
-        Strona główna
+        Home
       </ul>
-      <ul style={{ paddingRight: "20px", paddingLeft: "20px" }}>Sklep</ul>
-      <ul style={{ paddingRight: "20px", paddingLeft: "20px" }}>
-        Relacje z podróży
-      </ul>
-      <ul style={{ paddingRight: "20px", paddingLeft: "20px" }}>O nas</ul>
+      <ul style={{ paddingRight: "20px", paddingLeft: "20px" }}>Travel blog</ul>
+      <ul style={{ paddingRight: "20px", paddingLeft: "20px" }}>About us</ul>
     </div>
   );
 };

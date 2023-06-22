@@ -6,6 +6,7 @@ import { BlogSpeace } from "./components/BlogSpeace";
 import { Footer } from "./components/Footer";
 import { Logo } from "./components/Logo";
 import { Maps } from "./components/Maps";
+import { SubscribtionBar } from "./components/SubscribtionBar";
 import { TopBar } from "./components/TopBar";
 import { TopFoto } from "./components/TopFoto";
 
@@ -33,10 +34,15 @@ function App() {
       <div className="title">
         <BlogSpeace />
       </div>
+
       <div className="blog">
         <MaltaIcon />
         <GranCanariaIcon />
         <TurkeyIcon />
+      </div>
+
+      <div className="subBar">
+        <SubscribtionBar />
       </div>
 
       <div className="footer">

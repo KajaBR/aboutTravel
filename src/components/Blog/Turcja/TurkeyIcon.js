@@ -1,4 +1,5 @@
 import React from "react";
+import "../Style/style.css";
 
 export const TurkeyIcon = () => {
   return (
@@ -6,18 +7,10 @@ export const TurkeyIcon = () => {
       <div
         className="post"
         style={{
-          width: "400px",
-          height: "400px",
-          borderRadius: "10px",
           backgroundImage: "url(./img/TurkeyBackground.avif)",
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          color: "white",
-          fontWeight: "900",
         }}
       >
-        Turcja
+        <p className="namePost">Turkey</p>
       </div>
     </article>
   );
