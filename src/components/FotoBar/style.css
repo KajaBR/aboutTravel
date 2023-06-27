@@ -1,0 +1,15 @@
+.topFoto {
+    grid-row: fotoBar;
+    background-image:url("/public/img/Maspalmas.jpg");
+    position: relative;   
+}
+.topFoto::before{
+    position: absolute;
+    content: "";
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    
+}
+

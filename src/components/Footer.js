@@ -18,16 +18,16 @@ export const Footer = () => {
         style={{
           color: "#fff",
           display: "flex",
-          justifyContent: "flex-end",
-          paddingRight: "100px",
-          paddingTop: "50px",
+          justifyContent: "center",
+          alignContent: "flex-end",
+          paddingTop: "8px",
         }}
       >
-        <p style={{ padding: "10px" }}>
-          <img src={instagram.url} alt="ig" width={"35px"} />
+        <p style={{ padding: "5px" }}>
+          <img src={instagram.url} alt="ig" width={"20px"} />
         </p>
-        <p style={{ padding: "10px" }}>
-          <img src={facebook.url} alt="" width={"35px"} />
+        <p style={{ padding: "5px" }}>
+          <img src={facebook.url} alt="" width={"20px"} />
         </p>
       </p>
 
@@ -35,7 +35,6 @@ export const Footer = () => {
         style={{
           display: "flex",
           justifyContent: "center",
-          alignItems: "flex-end",
           color: "gray",
         }}
       >

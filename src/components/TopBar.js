@@ -6,7 +6,6 @@ export const TopBar = () => {
       style={{
         display: "flex",
         flexDirection: "row",
-        alignItems: "center",
         paddingTop: "27px",
         fontWeight: "900",
         position: "fixed",

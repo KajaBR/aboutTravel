@@ -1,14 +1,17 @@
 import "./components/App.style.css";
 import { GranCanariaIcon } from "./components/Blog/GranCanaria/GranCanariaIcon";
 import { MaltaIcon } from "./components/Blog/Malta/MaltaIcon";
-import { TurkeyIcon } from "./components/Blog/Turcja/TurkeyIcon";
+import { TurkeyIcon } from "./components/Blog/Turkey/TurkeyIcon";
 import { BlogSpeace } from "./components/BlogSpeace";
 import { Footer } from "./components/Footer";
 import { Logo } from "./components/Logo";
-import { Maps } from "./components/Maps";
-import { SubscribtionBar } from "./components/SubscribtionBar";
+import { Continents } from "./components/Continent/Continents";
 import { TopBar } from "./components/TopBar";
-import { TopFoto } from "./components/TopFoto";
+import { TopFoto } from "../src/components/FotoBar/TopFoto";
+import { Presets } from "./components/Presets/Presets";
+import { SubBar } from "./components/SubscribtionBar/SubBar";
+import { ItalyIcon } from "./components/Blog/Italy/ItalyIcon";
+import { SubPickUp } from "./components/SubscribtionBar/SubPickUp";
 
 function App() {
   return (
@@ -26,9 +29,12 @@ function App() {
       <div className="topFoto">
         <TopFoto />
       </div>
+      <div className="subPickUpBar">
+        <SubPickUp />
+      </div>
 
-      <div className="maps">
-        <Maps />
+      <div className="continents">
+        <Continents />
       </div>
 
       <div className="title">
@@ -39,10 +45,15 @@ function App() {
         <MaltaIcon />
         <GranCanariaIcon />
         <TurkeyIcon />
+        <ItalyIcon />
+      </div>
+
+      <div className="presets">
+        <Presets />
       </div>
 
       <div className="subBar">
-        <SubscribtionBar />
+        <SubBar />
       </div>
 
       <div className="footer">
