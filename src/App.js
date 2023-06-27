@@ -9,9 +9,9 @@ import { Continents } from "./components/Continent/Continents";
 import { TopBar } from "./components/TopBar";
 import { TopFoto } from "../src/components/FotoBar/TopFoto";
 import { Presets } from "./components/Presets/Presets";
-import { SubBar } from "./components/SubscribtionBar/SubBar";
+import { NewsBarEnd } from "./components/SubscribtionBar/NewsBarEnd";
 import { ItalyIcon } from "./components/Blog/Italy/ItalyIcon";
-import { SubPickUp } from "./components/SubscribtionBar/SubPickUp";
+import { NewsletterPickUp } from "./components/SubscribtionBar/PickUpNewsletter";
 
 function App() {
   return (
@@ -29,8 +29,8 @@ function App() {
       <div className="topFoto">
         <TopFoto />
       </div>
-      <div className="subPickUpBar">
-        <SubPickUp />
+      <div className="newsletterPickUpBar">
+        <NewsletterPickUp />
       </div>
 
       <div className="continents">
@@ -52,8 +52,8 @@ function App() {
         <Presets />
       </div>
 
-      <div className="subBar">
-        <SubBar />
+      <div className="newsBarEnd">
+        <NewsBarEnd />
       </div>
 
       <div className="footer">

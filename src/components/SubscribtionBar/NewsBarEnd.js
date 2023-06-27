@@ -1,9 +1,9 @@
 import React from "react";
 import "../SubscribtionBar/style.css";
 
-export const SubBar = () => {
+export const NewsBarEnd = () => {
   return (
-    <div className="subBar">
+    <div className="newsBarEnd">
       <form action="">
         <p className="joinText">Join our newsletter</p>
         <br></br>
