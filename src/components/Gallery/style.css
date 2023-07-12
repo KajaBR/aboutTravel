@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
-.presetsBar{
+.galleryBar{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -20,8 +20,8 @@
     padding-bottom: 40px;
 }
 
-.buttonBuy{
-    width: 100px;
+.buttonClick{
+    width: 150px;
     height: 35px;
     border: 3px solid rgb(58,57,57);
     background-color: rgb(58,57,57);
@@ -32,7 +32,7 @@
     
 }
 
-.buttonBuy:hover{
+.buttonClick:hover{
     cursor: pointer;
     transform: scale(1.1);
     box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.7);

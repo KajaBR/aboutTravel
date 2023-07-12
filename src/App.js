@@ -8,10 +8,10 @@ import { Logo } from "./components/Logo";
 import { Continents } from "./components/Continent/Continents";
 import { TopBar } from "./components/TopBar";
 import { TopFoto } from "../src/components/FotoBar/TopFoto";
-import { Presets } from "./components/Presets/Presets";
 import { NewsBarEnd } from "./components/SubscribtionBar/NewsBarEnd";
 import { ItalyIcon } from "./components/Blog/Italy/ItalyIcon";
-import { NewsletterPickUp } from "./components/SubscribtionBar/PickUpNewsletter";
+import { ButtonToOpenPopUp } from "./components/SubscribtionBar/ButtonToOpenPopUp";
+import { GalleryBar } from "./components/Gallery/GalleryBar";
 
 function App() {
   return (
@@ -29,8 +29,8 @@ function App() {
       <div className="topFoto">
         <TopFoto />
       </div>
-      <div className="newsletterPickUpBar">
-        <NewsletterPickUp />
+      <div className="popupButtonOpen">
+        <ButtonToOpenPopUp />
       </div>
 
       <div className="continents">
@@ -48,8 +48,8 @@ function App() {
         <ItalyIcon />
       </div>
 
-      <div className="presets">
-        <Presets />
+      <div className="galleryBarMain">
+        <GalleryBar />
       </div>
 
       <div className="newsBarEnd">

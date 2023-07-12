@@ -1,8 +1,10 @@
 import React from "react";
+import "./App.style.css";
 
 export const TopBar = () => {
   return (
     <div
+      className="topBarTab"
       style={{
         display: "flex",
         flexDirection: "row",

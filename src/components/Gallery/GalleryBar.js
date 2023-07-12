@@ -3,9 +3,9 @@ import { Description } from "./Description";
 import { Gallery } from "./Gallery";
 import "./style.css";
 
-export const Presets = () => {
+export const GalleryBar = () => {
   return (
-    <div className="presetsBar">
+    <div className="galleryBar">
       <Description />
       <Gallery />
     </div>

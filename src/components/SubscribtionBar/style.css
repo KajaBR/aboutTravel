@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+
 .joinText{
     font-weight: 600;
     color: rgb(58,57,57);
+    
 }
 .newsBarEnd{
-    align-items: center;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,6 +17,7 @@
     background-color: #f4ecd9;
     text-align: center;
     border: none;
+    padding: 5px;
 }
 
 .submitButton{
@@ -39,43 +42,58 @@
     text-align: center;
 }
 
-.newsletterPickUp{
-    width: 50px;
-    height: 300px;
-    background-color: #82bcdd; 
-    
+
+
+.openPopupBtn{
+    transform: rotate(-90deg);
+    font-weight: 600;
+    font-size: 15px;
+    border-radius: 10px;
+    background-color: #82bcdd;
+    padding: 10px;
+    border: none;
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.3);
+    font-family: Cinzel;
 }
 
-.popUpNewsletterBar{
-    position: absolute;
-    background-color: rgba(0, 0, 0, 0.5);
+.openPopupBtn:hover{
+    transform: scale(1.2) rotate(-90deg);
+}
+
+
+
+.popup {
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
     height: 100vh;
-    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.5);
     display: flex;
     justify-content: center;
     align-items: center;
-    backdrop-filter: blur(5px);
     
 }
 
-
-.popUpJoinText {
-    color: #f4ecd9;
-}
-
-.close{
-    color: #f4ecd9;
-    background-color: transparent;
-    position: absolute;
-    width: 25px;
-    height: 25px;
-    top: 36vh;
-    right: 45vw;
+.popup-inner{
+    position: relative;
+    padding: 32px;
+    /* width: 100%; */
+    width: 640px;
+    background-color: #82bcdd;
     border-radius: 10px;
-    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 
-.newsletterPickUpText {
-    transform: rotate(90deg);
+
+.popupForm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 120px;
+    padding: 5px;
 }
