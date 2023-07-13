@@ -20,14 +20,51 @@ import { Gallery } from "./pages/Gallery/Gallery";
 
 function App() {
   return (
-    <article className="App">
-      <div>
-        <Link to="/blog">Blog</Link>
+    <div className="App">
+      <div className="mainMenu">
+        <div className="logo">
+          <Logo />
+        </div>
+
+        <div className="topBar">
+          <TopBar />
+        </div>
       </div>
-      <Routes>
-        <Route path="/blog" element={<Blog />} />
-      </Routes>
-    </article>
+
+      <div className="topFoto">
+        <TopFoto />
+      </div>
+      <div className="popupButtonOpen">
+        <ButtonToOpenPopUp />
+      </div>
+
+      <div className="continents">
+        <Continents />
+      </div>
+
+      <div className="title">
+        <BlogSpeace />
+      </div>
+
+      <div className="blog">
+        <MaltaIcon />
+        <GranCanariaIcon />
+        <TurkeyIcon />
+        <ItalyIcon />
+      </div>
+
+      <div className="galleryBarMain">
+        <GalleryBar />
+      </div>
+
+      <div className="newsBarEnd">
+        <NewsBarEnd />
+      </div>
+
+      <div className="footer">
+        <Footer />
+      </div>
+    </div>
   );
 }
 

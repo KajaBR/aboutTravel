@@ -46,6 +46,11 @@
    padding-right: 100px;
 }
 
+.topBarTab>ul>a{
+    color: rgb(252, 246, 238);
+    text-decoration: none;
+}
+
 .topBarTab>ul:hover{
     transform: scale(1.1);
 }
