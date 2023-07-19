@@ -1,0 +1,23 @@
+.blog{
+    width: 100%;
+    position: relative;
+}
+
+.blog .content {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.blog .posts{
+    display: flex;
+    flex-direction:row-reverse ;
+}
+
+@media screen and (max-width:940px) {
+    .blog .posts {
+        flex-direction: column;
+    }
+    
+}

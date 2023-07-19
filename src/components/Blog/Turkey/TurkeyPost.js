@@ -1,19 +1,20 @@
 import React from "react";
 import "../Style/style.css";
 
-export const TurkeyIcon = () => {
+export const TurkeyPost = () => {
   return (
-    <article style={{ padding: "30px" }}>
+    <article style={{ padding: "20px" }}>
       <div
         className="post"
         style={{
           backgroundImage: "url(./img/TurkeyBackground.avif)",
         }}
       >
-        <p className="namePost">
+        <div className="namePost">
           Turkey
           <p>what should you try there</p>
-        </p>
+          <button>Read more</button>
+        </div>
       </div>
     </article>
   );

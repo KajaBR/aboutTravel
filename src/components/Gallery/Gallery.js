@@ -1,12 +1,20 @@
 import React from "react";
+import "./GalleryStyle.css";
 
-export const Gallery = () => {
-  const palms = {
-    url: "img/palms.jpg",
-  };
+const Gallery = () => {
   return (
     <div className="gallery">
-      <img src={palms.url} alt="palms" width={350} height={400} />
+      <div className="container">
+        <div className="content">
+          <h4>Watch our gallery</h4>
+          <p>There is a all photo from ours travels.</p>
+          <div>
+            <button>Watch now!</button>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
+
+export default Gallery;

@@ -14,7 +14,6 @@ import { ButtonToOpenPopUp } from "./components/SubscribtionBar/ButtonToOpenPopU
 import { GalleryBar } from "./components/Gallery/GalleryBar";
 import { Routes, Route, Link } from "react-router-dom";
 import { Home } from "./pages/Home/Home";
-import { Blog } from "./pages/Blog/Blog";
 import { AboutUs } from "./pages/AboutUs/AboutUs";
 import { Gallery } from "./pages/Gallery/Gallery";
 
@@ -40,10 +39,6 @@ function App() {
 
       <div className="continents">
         <Continents />
-      </div>
-
-      <div className="title">
-        <BlogSpeace />
       </div>
 
       <div className="blog">

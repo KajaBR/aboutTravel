@@ -1,18 +1,19 @@
 import React from "react";
 
-export const ItalyIcon = () => {
+export const ItalyPost = () => {
   return (
-    <article style={{ padding: "30px" }}>
+    <article style={{ padding: "20px" }}>
       <div
         className="post"
         style={{
           backgroundImage: "url(./img/ItalyBackground.avif)",
         }}
       >
-        <p className="namePost">
+        <div className="namePost">
           Italy
           <p>why you must travel there</p>
-        </p>
+          <button>Read more</button>
+        </div>
       </div>
     </article>
   );
