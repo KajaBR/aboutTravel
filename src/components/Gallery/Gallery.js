@@ -6,7 +6,7 @@ const Gallery = () => {
     <div className="gallery">
       <div className="container">
         <div className="content">
-          <h4>Watch our gallery</h4>
+          <h3>Watch our gallery</h3>
           <p>There is a all photo from ours travels.</p>
           <div>
             <button>Watch now!</button>

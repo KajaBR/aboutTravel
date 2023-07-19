@@ -5,6 +5,7 @@ import Hero from "./components/Hero/Hero";
 import BlogBar from "./components/BlogBar/BlogBar";
 import Gallery from "./components/Gallery/Gallery";
 import Newsletter from "./components/Newsletter/Newsletter";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <BlogBar />
       <Gallery />
       <Newsletter />
+      <Footer />
     </>
   );
 }

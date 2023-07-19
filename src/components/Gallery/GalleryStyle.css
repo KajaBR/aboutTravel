@@ -22,6 +22,7 @@
     left: 50%;
     top:30%;
     width: 50%;
+    color: var(--bez-color);
 
 }
 
@@ -29,6 +30,8 @@
     color: var(--bez-color);
     margin: 1rem 0;
 }
+
+
 
 @media screen and (max-width:940px) {
     .gallery .content {
