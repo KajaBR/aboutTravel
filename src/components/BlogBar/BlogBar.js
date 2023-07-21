@@ -1,6 +1,6 @@
 import React from "react";
 import "./BlogBarStyle.css";
-import { GranCanariaPost } from "../Blog/GranCanaria/GranCanariaPost";
+import GranCanariaPost from "../Blog/GranCanaria/GranCanariaPost";
 import { MaltaPost } from "../Blog/Malta/MaltaPost";
 import { TurkeyPost } from "../Blog/Turkey/TurkeyPost";
 

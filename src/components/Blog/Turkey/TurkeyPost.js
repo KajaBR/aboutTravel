@@ -7,7 +7,7 @@ export const TurkeyPost = () => {
       <div
         className="post"
         style={{
-          backgroundImage: "url(./img/TurkeyBackground.avif)",
+          backgroundImage: "url(./img/TurkeyBackground.jpg)",
         }}
       >
         <div className="namePost">

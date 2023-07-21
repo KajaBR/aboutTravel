@@ -1,6 +1,6 @@
 import React from "react";
 
-export const GranCanariaPost = () => {
+const GranCanariaPost = () => {
   return (
     <div style={{ padding: "20px" }}>
       <div
@@ -18,3 +18,5 @@ export const GranCanariaPost = () => {
     </div>
   );
 };
+
+export default GranCanariaPost;

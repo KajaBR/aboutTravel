@@ -3,6 +3,7 @@ import "./Footer.css";
 import { MdOutlineModeOfTravel } from "react-icons/md";
 import { BsFillArrowUpCircleFill } from "react-icons/bs";
 import { FaFacebook, FaInstagram, FaTiktok } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -13,16 +14,34 @@ const Footer = () => {
             <MdOutlineModeOfTravel className="icon" />
             <h1>About Travel</h1>
           </div>
-          <BsFillArrowUpCircleFill className="icon" />
+          <Link
+            activeClass="active"
+            to="top"
+            spy={true}
+            smooth={true}
+            duration={500}
+          >
+            <BsFillArrowUpCircleFill className="icon" />
+          </Link>
         </div>
         <div className="col-container">
           <div className="col">
             <h3>Navigation</h3>
-            <p>Home</p>
-            <p>Blog</p>
-            <p>Gallery</p>
-            <p>About us</p>
-            <p>Contact</p>
+            <p>
+              <Link path="/">Home</Link>
+            </p>
+            <p>
+              <Link to="/blog">Blog</Link>
+            </p>
+            <p>
+              <Link to="/gallery">Gallery</Link>
+            </p>
+            <p>
+              <Link to="/aboutus">About us</Link>
+            </p>
+            <p>
+              <Link to="/contact">Contact</Link>
+            </p>
           </div>
           <form>
             <h3>Join to our newsletter</h3>

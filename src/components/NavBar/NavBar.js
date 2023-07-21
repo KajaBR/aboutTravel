@@ -2,13 +2,13 @@ import React, { useState } from "react";
 import "./NavBarStyle.css";
 import { MdOutlineModeOfTravel } from "react-icons/md";
 import { FaBars, FaTimes } from "react-icons/fa";
-import { Routes, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
-export const NavBar = () => {
+const NavBar = () => {
   const [nav, setNav] = useState(false);
   const handleNav = () => setNav(!nav);
   return (
-    <div className="navbar">
+    <div name="top" className="navbar">
       <div className="container">
         <div className="logo">
           <MdOutlineModeOfTravel className="icon" />
@@ -16,10 +16,21 @@ export const NavBar = () => {
         </div>
 
         <ul className={nav ? "nav-menu active" : "nav-menu"}>
-          <li>Home</li>
-          <li>Blog</li>
-          <li>Gallery</li>
-          <li>About us</li>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/blog">Blog</Link>
+          </li>
+          <li>
+            <Link to="/gallery">Gallery</Link>
+          </li>
+          <li>
+            <Link to="/aboutus">About us</Link>
+          </li>
+          <li>
+            <Link to="/contact">Contact</Link>
+          </li>
         </ul>
 
         <div
@@ -32,3 +43,5 @@ export const NavBar = () => {
     </div>
   );
 };
+
+export default NavBar;
