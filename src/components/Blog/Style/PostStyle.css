@@ -1,0 +1,53 @@
+.post{
+    height: fit-content;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    padding: 5rem 2rem;
+}
+
+.post .content{
+    display: flex;
+    flex-direction: column;
+}
+
+.post .post-title{
+    padding: 2rem;
+    border-bottom: 1px solid var(--brown-color);
+    width: 100%;
+    background-size: cover; 
+    
+}
+
+.post .content .introduction {
+    padding: 2rem 0;
+    color: grey;
+}
+
+
+.post .content  .photo{
+    padding: 3rem;
+    margin: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.4);
+    height:  600px;
+    background-size: cover;
+}
+
+.header{
+    font-size: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+
+@media screen and (max-width:940px) {
+    .post{
+        padding: 5rem 1rem;
+    }
+   .post .content .photo{
+    width: 400px;
+    height: 300px;
+    margin: 10px 0px;
+   }
+    
+}

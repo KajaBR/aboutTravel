@@ -1,8 +1,8 @@
 import React from "react";
 import "./BlogBarStyle.css";
-import GranCanariaPost from "../Blog/GranCanaria/GranCanariaPost";
-import { MaltaPost } from "../Blog/Malta/MaltaPost";
-import { TurkeyPost } from "../Blog/Turkey/TurkeyPost";
+import GranCanariaPost from "../Blog/GranCanaria/GranCanariaPostIcon";
+import MaltaPostIcon from "../Blog/Malta/MaltaPostIcon";
+import TurkeyPostIcon from "../Blog/Turkey/TurkeyPostIcon";
 
 const BlogBar = () => {
   return (
@@ -12,8 +12,8 @@ const BlogBar = () => {
           <h4>New posts</h4>
           <div className="posts">
             <GranCanariaPost />
-            <MaltaPost />
-            <TurkeyPost />
+            <MaltaPostIcon />
+            <TurkeyPostIcon />
           </div>
         </div>
       </div>

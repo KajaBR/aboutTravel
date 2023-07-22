@@ -1,5 +1,6 @@
 import React from "react";
 import "./GalleryStyle.css";
+import { Link } from "react-router-dom";
 
 const Gallery = () => {
   return (
@@ -9,7 +10,9 @@ const Gallery = () => {
           <h3>Watch our gallery</h3>
           <p>There is a all photo from ours travels.</p>
           <div>
-            <button>Watch now!</button>
+            <button>
+              <Link to="/gallery">Watch now!</Link>
+            </button>
           </div>
         </div>
       </div>

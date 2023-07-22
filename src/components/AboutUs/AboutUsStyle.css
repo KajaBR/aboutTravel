@@ -4,7 +4,7 @@
     background: rgb(0, 0, 0, .4);
     position: relative;
     color: var(--bez-color);
-}
+}   
 
 .aboutus:before{
     content: '';
@@ -17,20 +17,17 @@
 
 .aboutus .content {
     position: absolute;
-    top:40%;
-    width: 50%;
-    left: 0;
-    padding: 1rem;
-    margin-left: 10rem;
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+   
 }
 
 @media screen and (max-width:940px){
-    .hero .content {
-       margin-left: 1rem; 
-    }
-    
     .aboutus .content {
-        background: rgb(0, 0, 0, .7);
-        border-radius: 4px;
+        background: rgb(0, 0, 0, .4);
+        width: 100%;
+
     }
 }

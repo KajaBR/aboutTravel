@@ -15,6 +15,11 @@
     justify-content: center;
     padding: 1rem;
     margin-left: 6rem;
+    
+}
+
+.hero .content button a {
+    color: var(--bez-color);
 }
 
 @media screen and (max-width:940px){

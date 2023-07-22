@@ -2,12 +2,13 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
-import Blog from "./pages/BlogPage";
+import Blog from "./pages/BlogPage/BlogPage";
 import Gallery from "./pages/GalleryPage";
 import Aboutus from "./pages/AboutUsPage";
 import Contact from "./pages/ContactPage";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import GranCanariaBlogPage from "./pages/BlogPage/GranCanariaBlogPage";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -18,6 +19,7 @@ root.render(
       <Route path="/gallery" element={<Gallery />} />
       <Route path="/aboutus" element={<Aboutus />} />
       <Route path="/contact" element={<Contact />} />
+      <Route path="/blog/grancanaria" element={<GranCanariaBlogPage />} />
     </Routes>
   </BrowserRouter>
 );

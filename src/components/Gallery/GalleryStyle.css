@@ -31,6 +31,9 @@
     margin: 1rem 0;
 }
 
+.gallery .content button a{
+    color: var(--bez-color);
+}
 
 
 @media screen and (max-width:940px) {

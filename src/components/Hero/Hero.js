@@ -9,7 +9,9 @@ const Hero = () => {
         <div className="content">
           <h2>Travel blog</h2>
           <div>
-            <button>Read more </button>
+            <button>
+              <Link to="/blog">Read more</Link>
+            </button>
           </div>
         </div>
       </div>
