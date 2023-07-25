@@ -16,6 +16,7 @@
     border-bottom: 1px solid var(--brown-color);
     width: 100%;
     background-size: cover; 
+    background: url(../../../../public/img/background.jpg);
     
 }
 

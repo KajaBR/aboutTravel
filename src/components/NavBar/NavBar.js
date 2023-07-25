@@ -8,7 +8,7 @@ const NavBar = () => {
   const [nav, setNav] = useState(false);
   const handleNav = () => setNav(!nav);
   return (
-    <div name="top" className="navbar">
+    <div name="/top" className="navbar">
       <div className="container">
         <div className="logo">
           <MdOutlineModeOfTravel className="icon" />

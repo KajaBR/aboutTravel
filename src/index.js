@@ -9,6 +9,9 @@ import Contact from "./pages/ContactPage";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import GranCanariaBlogPage from "./pages/BlogPage/GranCanariaBlogPage";
+import MaltaBlogPage from "./pages/BlogPage/MaltaBlogPage";
+import ItalyBlogPage from "./pages/BlogPage/ItalyBlogPage";
+import TurkeyBlogPage from "./pages/BlogPage/TurkeyBlogPage";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -20,6 +23,9 @@ root.render(
       <Route path="/aboutus" element={<Aboutus />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="/blog/grancanaria" element={<GranCanariaBlogPage />} />
+      <Route path="/blog/malta" element={<MaltaBlogPage />} />
+      <Route path="/blog/italy" element={<ItalyBlogPage />} />
+      <Route path="/blog/turkey" element={<TurkeyBlogPage />} />
     </Routes>
   </BrowserRouter>
 );

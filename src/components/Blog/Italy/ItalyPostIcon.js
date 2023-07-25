@@ -1,5 +1,6 @@
 import React from "react";
 import "../Style/PostIconStyle.css";
+import { Link } from "react-router-dom";
 
 const ItalyPostIcon = () => {
   return (
@@ -13,7 +14,9 @@ const ItalyPostIcon = () => {
             <div className="post-icon">
               <h3>Italy</h3>
               <p>why you must travel there</p>
-              <button>Read more</button>
+              <button>
+                <Link to="/blog/italy">Read more</Link>
+              </button>
             </div>
           </div>
         </div>

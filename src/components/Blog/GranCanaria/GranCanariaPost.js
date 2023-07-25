@@ -6,12 +6,7 @@ const GranCanariaPost = () => {
     <div className="post">
       <div className="container">
         <div className="content">
-          <div
-            className="post-title"
-            style={{
-              background: "url(/img/background.jpg) no-repeat center/cover",
-            }}
-          >
+          <div className="post-title">
             <h1>Gran Canaria</h1>
             <h4>5 of the best places to vist</h4>
           </div>
