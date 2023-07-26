@@ -4,6 +4,10 @@
     position: relative;
 }
 
+.contact .content {
+    padding: 6rem 0;
+}
+
 .contact .form-container{
     left: 50%;
     display: flex;

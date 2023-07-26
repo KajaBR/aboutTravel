@@ -12,6 +12,7 @@ import GranCanariaBlogPage from "./pages/BlogPage/GranCanariaBlogPage";
 import MaltaBlogPage from "./pages/BlogPage/MaltaBlogPage";
 import ItalyBlogPage from "./pages/BlogPage/ItalyBlogPage";
 import TurkeyBlogPage from "./pages/BlogPage/TurkeyBlogPage";
+import GalleryPage from "./pages/GalleryPage";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -26,6 +27,7 @@ root.render(
       <Route path="/blog/malta" element={<MaltaBlogPage />} />
       <Route path="/blog/italy" element={<ItalyBlogPage />} />
       <Route path="/blog/turkey" element={<TurkeyBlogPage />} />
+      <Route path="/gallery" element={<GalleryPage />} />
     </Routes>
   </BrowserRouter>
 );

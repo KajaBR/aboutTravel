@@ -1,0 +1,25 @@
+.collage .container {
+    margin: 20px auto;
+    padding:  9rem 0 6rem 0;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.collage .content{
+    overflow: hidden;
+    height: 0;
+    padding: 50% 0;
+    position: relative;
+    
+}
+
+.content img {
+    min-width: 100%;
+    min-height: 100%;
+    max-width: 150%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}

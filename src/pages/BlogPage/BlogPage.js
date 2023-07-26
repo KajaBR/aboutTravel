@@ -11,7 +11,7 @@ const BlogPage = () => {
   return (
     <>
       <NavBar />
-      <div className="content">
+      <div className="content-blog-page">
         <TurkeyPostIcon />
         <MaltaPostIcon />
         <GranCanariaPost />

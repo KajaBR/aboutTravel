@@ -8,7 +8,7 @@ const Contact = () => {
         <div className="content">
           <div className="form-container">
             <form>
-              <h2>Contact Us</h2>
+              <h3>Contact Us</h3>
               <div>
                 <label>Name</label>
                 <input type="text" placeholder="Enter your name" />
