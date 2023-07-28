@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./PhotoCollageStyle.css";
 import { storage } from "../../firebase/config";
 import { ref, listAll, getDownloadURL } from "firebase/storage";
+import { FaTimes, FaArrowRight, FaArrowLeft } from "react-icons/fa";
 
 const PhotoCollage = () => {
   const [imageList, setImageList] = useState([]);
@@ -22,16 +23,14 @@ const PhotoCollage = () => {
   return (
     <div className="collage">
       <div className="container">
-        {imageList.map((url) => {
+        {imageList.map((url, index) => {
           return (
             <div
-              className="content"
-              key={url.id}
-              onClick={() => {
-                return console.log(<img src={selectedImage} />);
-              }}
+              className="photo"
+              key={url}
+              onClick={() => setSelectedImage(selectedImage)}
             >
-              <img className="photo" src={url} />
+              <img src={url} />
             </div>
           );
         })}

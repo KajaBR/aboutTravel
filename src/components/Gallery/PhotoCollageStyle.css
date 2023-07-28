@@ -7,7 +7,7 @@
     grid-gap: 20px;
 }
 
-.collage .content{
+.collage .photo{
     overflow: hidden;
     height: 0;
     padding: 50% 0;
@@ -15,11 +15,47 @@
     
 }
 
-.content img {
+.photo img {
     min-width: 100%;
     min-height: 100%;
     max-width: 150%;
     position: absolute;
     top: 0;
     left: 0;
+}
+
+.photo {
+    border-radius: 10px;
+}
+
+/* .photo:hover{
+    transform: scale(1.02);
+} */
+
+.collage .selected-image-container{
+
+}
+
+.collage .selected-image-container .icon-close .icon-arrow-left .icon-arrow-right{
+
+}
+
+
+.collage .selected-image-container .icon-close{
+
+}
+
+.collage .selected-image-container .icon-arrow-left{
+
+}
+
+
+.collage .selected-image-container .icon-arrow-right{
+
+}
+
+.collage .selected-image{
+    position: absolute;
+    width: 2000px;
+
 }

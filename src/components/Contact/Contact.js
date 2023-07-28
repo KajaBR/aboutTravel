@@ -7,7 +7,13 @@ const Contact = () => {
       <div className="container">
         <div className="content">
           <div className="form-container">
-            <form>
+            {/* fill it */}
+            <form action="https://formsubmit.io/send/ your email" method="POST">
+              <input
+                name="_formsubmit_id"
+                type="text"
+                style={{ display: "none" }}
+              />
               <h3>Contact Us</h3>
               <div>
                 <label>Name</label>
@@ -25,6 +31,15 @@ const Contact = () => {
                   placeholder="Enter your message"
                 />
               </div>
+
+              <input
+                name="_redirect"
+                type="hidden"
+                id="name"
+                // do wpisania strona z podziękowaniami
+                value="https://your website url"
+              ></input>
+
               <button>Submit</button>
             </form>
           </div>
