@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./PhotoCollageStyle.css";
 import { storage } from "../../firebase/config";
 import { ref, listAll, getDownloadURL } from "firebase/storage";
-import { FaTimes, FaArrowRight, FaArrowLeft } from "react-icons/fa";
+//import { FaTimes, FaArrowRight, FaArrowLeft } from "react-icons/fa";
 
 const PhotoCollage = () => {
   const [imageList, setImageList] = useState([]);
