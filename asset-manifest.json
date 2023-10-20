@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.22903156.css",
-    "main.js": "/static/js/main.eeaf1ae7.js",
-    "static/js/787.d06b42a6.chunk.js": "/static/js/787.d06b42a6.chunk.js",
-    "static/media/mountains.jpg": "/static/media/mountains.5ce111b7fc35bdf9b0b7.jpg",
-    "static/media/TurkeyBackground.jpg": "/static/media/TurkeyBackground.149a1c39e8b0a3f98369.jpg",
-    "static/media/aboutus.jpg": "/static/media/aboutus.31f1aa7196667ceb1ff2.jpg",
-    "static/media/background.jpg": "/static/media/background.b0db48a3ef1fe8227ac8.jpg",
-    "index.html": "/index.html",
-    "main.22903156.css.map": "/static/css/main.22903156.css.map",
-    "main.eeaf1ae7.js.map": "/static/js/main.eeaf1ae7.js.map",
-    "787.d06b42a6.chunk.js.map": "/static/js/787.d06b42a6.chunk.js.map"
+    "main.css": "/aboutTravel/static/css/main.7988261c.css",
+    "main.js": "/aboutTravel/static/js/main.f96bd273.js",
+    "static/js/787.d06b42a6.chunk.js": "/aboutTravel/static/js/787.d06b42a6.chunk.js",
+    "static/media/mountains.jpg": "/aboutTravel/static/media/mountains.5ce111b7fc35bdf9b0b7.jpg",
+    "static/media/TurkeyBackground.jpg": "/aboutTravel/static/media/TurkeyBackground.149a1c39e8b0a3f98369.jpg",
+    "static/media/aboutus.jpg": "/aboutTravel/static/media/aboutus.31f1aa7196667ceb1ff2.jpg",
+    "static/media/background.jpg": "/aboutTravel/static/media/background.b0db48a3ef1fe8227ac8.jpg",
+    "index.html": "/aboutTravel/index.html",
+    "main.7988261c.css.map": "/aboutTravel/static/css/main.7988261c.css.map",
+    "main.f96bd273.js.map": "/aboutTravel/static/js/main.f96bd273.js.map",
+    "787.d06b42a6.chunk.js.map": "/aboutTravel/static/js/787.d06b42a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.22903156.css",
-    "static/js/main.eeaf1ae7.js"
+    "static/css/main.7988261c.css",
+    "static/js/main.f96bd273.js"
   ]
 }
