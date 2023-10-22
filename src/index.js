@@ -16,7 +16,7 @@ import GalleryPage from "./pages/GalleryPage";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <BrowserRouter>
+  <BrowserRouter basename="/aboutTravel">
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="/blog" element={<Blog />} />
